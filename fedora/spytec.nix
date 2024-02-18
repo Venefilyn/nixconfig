@@ -18,8 +18,8 @@
         };
 
         signing = {
-            key = "";
-            signByDefault = builtins.stringLength "" > 0;
+            key = "~/.ssh/id_ed25519";
+            signByDefault = builtins.stringLength "~/.ssh/id_ed25519" > 0;
         };
 
         lfs.enable = true;
