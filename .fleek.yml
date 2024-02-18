@@ -40,7 +40,7 @@ shell: bash
 systems:
     - arch: x86_64
       home: ""
-      hostname: fedora
+      hostname: sabre
       os: linux
       user:
         email: freya@spytec.se
