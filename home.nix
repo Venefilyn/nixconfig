@@ -34,6 +34,7 @@
     pkgs.nodejs
     pkgs.sunshine
     pkgs.zsh
+    pkgs.vagrant
     # Fleek Bling
     pkgs.git
     pkgs.htop

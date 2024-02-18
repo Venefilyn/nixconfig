@@ -32,6 +32,7 @@ packages:
     - nodejs
     - sunshine
     - zsh
+    - vagrant
 paths:
     - $HOME/bin
     - $HOME/.local/bin
