@@ -1,0 +1,54 @@
+aliases:
+    fleeks: cd ~/.local/share/fleek
+    latest-fleek-version: nix run https://getfleek.dev/latest.tar.gz -- version
+    update-fleek: nix run https://getfleek.dev/latest.tar.gz -- update
+allow_broken: false
+auto_gc: true
+bling: high
+blocklist: []
+byo_git: false
+ejected: false
+flakedir: .local/share/fleek
+git:
+    autocommit: true
+    autopull: true
+    autopush: true
+    enabled: true
+min_version: 0.8.4
+name: Fleek Configuration
+overlays: {}
+packages:
+    - helix
+    - neovim
+    - ripgrep
+    - bat
+    - gphoto2
+    - devpod
+    - devbox
+    - sqlite
+    - git
+    - gh
+    - yarn
+    - nodejs
+    - sunshine
+paths:
+    - $HOME/bin
+    - $HOME/.local/bin
+programs:
+    - dircolors
+shell: bash
+systems:
+    - arch: x86_64
+      home: ""
+      hostname: fedora
+      os: linux
+      user:
+        email: freya@spytec.se
+        name: Freya Gustavsson
+        ssh_private_key_file: ""
+        ssh_public_key_file: ""
+        username: spytec
+      username: spytec
+track: nixos-unstable
+unfree: true
+users: []
