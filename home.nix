@@ -35,6 +35,7 @@
     pkgs.sunshine
     pkgs.zsh
     pkgs.vagrant
+    pkgs.hyfetch
     # Fleek Bling
     pkgs.git
     pkgs.htop

@@ -33,6 +33,7 @@ packages:
     - sunshine
     - zsh
     - vagrant
+    - hyfetch
 paths:
     - $HOME/bin
     - $HOME/.local/bin
