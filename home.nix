@@ -36,7 +36,6 @@
     pkgs.zsh
     pkgs.vagrant
     pkgs.hyfetch
-    pkgs.zsh-autosuggestions
     # Fleek Bling
     pkgs.git
     pkgs.htop

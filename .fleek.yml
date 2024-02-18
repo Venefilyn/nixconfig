@@ -34,7 +34,6 @@ packages:
     - zsh
     - vagrant
     - hyfetch
-    - zsh-autosuggestions
 paths:
     - $HOME/bin
     - $HOME/.local/bin
