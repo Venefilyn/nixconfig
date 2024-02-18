@@ -34,6 +34,7 @@ packages:
     - zsh
     - vagrant
     - hyfetch
+    - zsh-fzf-tab
 paths:
     - $HOME/bin
     - $HOME/.local/bin

@@ -36,6 +36,7 @@
     pkgs.zsh
     pkgs.vagrant
     pkgs.hyfetch
+    pkgs.zsh-fzf-tab
     # Fleek Bling
     pkgs.git
     pkgs.htop
