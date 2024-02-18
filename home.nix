@@ -33,6 +33,7 @@
     pkgs.yarn
     pkgs.nodejs
     pkgs.sunshine
+    pkgs.zsh
     # Fleek Bling
     pkgs.git
     pkgs.htop
