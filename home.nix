@@ -16,42 +16,40 @@
 
   # packages are just installed (no configuration applied)
   # programs are installed and configuration applied to dotfiles
-  home.packages = [
+  home.packages = with pkgs; [
     # user selected packages
-    pkgs.helix
-    pkgs.neovim
-    pkgs.ripgrep
-    pkgs.bat
-    pkgs.gphoto2
-    pkgs.devpod
-    pkgs.devbox
-    pkgs.sqlite
-    pkgs.git
-    pkgs.gh
-    pkgs.yarn
-    pkgs.nodejs
-    pkgs.sunshine
-    pkgs.zsh
-    pkgs.vagrant
-    pkgs.hyfetch
-    pkgs.zsh-fzf-tab
+    helix
+    ripgrep
+    bat
+    gphoto2
+    devpod
+    devbox
+    sqlite
+    git
+    gh
+    yarn
+    nodejs
+    sunshine
+    zsh
+    vagrant
+    hyfetch
+    zsh-fzf-tab
     # Fleek Bling
-    pkgs.git
-    pkgs.htop
-    pkgs.github-cli
-    pkgs.glab
-    pkgs.fzf
-    pkgs.ripgrep
-    pkgs.vscode
-    pkgs.lazygit
-    pkgs.jq
-    pkgs.yq-go
-    pkgs.neovim
-    pkgs.neofetch
-    pkgs.btop
-    pkgs.cheat
-    pkgs.just
-    (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
+    git
+    htop
+    github-cli
+    glab
+    fzf
+    ripgrep
+    vscode
+    lazygit
+    jq
+    yq-go
+    neofetch
+    btop
+    cheat
+    just
+    (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
   home.stateVersion =
