@@ -34,13 +34,9 @@
     vagrant
     hyfetch
     zsh-fzf-tab
-    # Fleek Bling
-    git
     htop
     github-cli
     glab
-    fzf
-    ripgrep
     vscode
     lazygit
     jq
