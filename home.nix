@@ -45,6 +45,7 @@
     btop
     cheat
     just
+    rclone
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
