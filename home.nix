@@ -47,6 +47,7 @@
     just
     rclone
     yubikey-manager
+    pre-commit
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
