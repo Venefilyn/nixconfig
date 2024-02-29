@@ -23,6 +23,7 @@
     bat
     gphoto2
     devpod
+    devpod-desktop
     devbox
     sqlite
     git
@@ -37,7 +38,6 @@
     htop
     github-cli
     glab
-    vscode
     lazygit
     jq
     yq-go

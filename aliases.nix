@@ -9,5 +9,8 @@
 
     # replace cat with bat
     cat = "bat";
+
+    # add vscode
+    code = "flatpak run com.visualstudio.code";
     };
 }
