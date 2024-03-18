@@ -1,6 +1,6 @@
-# Fleek Configuration
+# Home Manager Configuration
 
-nix home-manager configs created by [fleek](https://github.com/ublue-os/fleek).
+nix home-manager configs
 
 ## Reference
 
@@ -12,17 +12,8 @@ nix home-manager configs created by [fleek](https://github.com/ublue-os/fleek).
 Aliases were added to the config to make it easier to use. To use them, run the following commands:
 
 ```bash
-# To change into the fleek generated home-manager directory
-$ fleeks
+# To change into the nixconfig home-manager directory
+$ nixconfig
 # To apply the configuration
 $ apply-$(hostname)
 ```
-
-Your actual aliases are listed below:
-    apply-sabre = "nix run --impure home-manager/master -- -b bak switch --flake .#spytec@sabre";
-
-    fleeks = "cd ~/.local/share/fleek";
-
-    latest-fleek-version = "nix run https://getfleek.dev/latest.tar.gz -- version";
-
-    update-fleek = "nix run https://getfleek.dev/latest.tar.gz -- update";

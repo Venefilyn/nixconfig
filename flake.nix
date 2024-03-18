@@ -1,5 +1,5 @@
 {
-  description = "Fleek Configuration";
+  description = "Nix Configuration";
 
   inputs = {
     # Nixpkgs
@@ -10,21 +10,21 @@
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
     # Overlays
-    
+
 
   };
 
   outputs = { self, nixpkgs, home-manager, ... }@inputs: {
-    
+
     # Available through 'home-manager --flake .#your-username@your-hostname'
-    
+
     homeConfigurations = {
-    
+
       "spytec@sabre" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
         extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config
         modules = [
-          ./home.nix 
+          ./home.nix
           ./path.nix
           ./shell.nix
           ./user.nix
@@ -44,7 +44,7 @@
 
         ];
       };
-      
+
     };
   };
 }
