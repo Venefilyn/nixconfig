@@ -47,6 +47,7 @@
     rclone
     yubikey-manager
     pre-commit
+    vagrant
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
