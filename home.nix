@@ -48,6 +48,7 @@
     pre-commit
     ansible
     topgrade
+    ffmpeg
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
