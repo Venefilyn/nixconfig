@@ -31,7 +31,6 @@
     nodejs
     sunshine
     zsh
-    vagrant
     hyfetch
     zsh-fzf-tab
     htop
