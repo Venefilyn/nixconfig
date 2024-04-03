@@ -46,7 +46,7 @@
     rclone
     yubikey-manager
     pre-commit
-    vagrant
+    ansible
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
