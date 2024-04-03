@@ -49,6 +49,7 @@
     ansible
     topgrade
     ffmpeg
+    openssl
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
