@@ -47,6 +47,7 @@
     yubikey-manager
     pre-commit
     ansible
+    topgrade
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
