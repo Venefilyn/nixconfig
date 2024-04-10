@@ -50,6 +50,7 @@
     topgrade
     ffmpeg
     openssl
+    sparrow
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
