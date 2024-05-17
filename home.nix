@@ -29,7 +29,6 @@
     gh
     yarn
     nodejs
-    sunshine
     zsh
     hyfetch
     zsh-fzf-tab
@@ -51,6 +50,7 @@
     ffmpeg
     openssl
     sparrow
+    bun
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
