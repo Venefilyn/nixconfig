@@ -12,5 +12,10 @@
 
     # add vscode
     code = "flatpak run com.visualstudio.code";
-    };
+
+    # For generating progress reports for OpenStreetMap
+    osm_mp4 = "ffmpeg -framerate 1 -pattern_type glob -i '*.png' -c:v libx264 -r 30 -pix_fmt yuv420p out.mp4";
+    osm_gif = "ffmpeg -i out.mp4 -vf \"fps=1,scale=1920:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse\" -loop 0 out.gif";
+    osm_progress = "osm_mp4 && osm_gif";
+  };
 }
