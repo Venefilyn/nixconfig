@@ -51,6 +51,7 @@
     sparrow
     bun
     corepack
+    bitwarden-cli
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
