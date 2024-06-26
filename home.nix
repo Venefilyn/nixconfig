@@ -27,7 +27,6 @@
     sqlite
     git
     gh
-    yarn
     nodejs
     zsh
     hyfetch
@@ -51,6 +50,7 @@
     openssl
     sparrow
     bun
+    corepack
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
