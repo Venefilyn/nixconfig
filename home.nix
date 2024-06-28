@@ -52,6 +52,7 @@
     bun
     corepack
     bitwarden-cli
+    cosign
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
