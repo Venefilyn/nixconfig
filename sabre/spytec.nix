@@ -21,7 +21,7 @@
         };
 
         signing = {
-            key = "~/.ssh/id_ed25519";
+            key = "key::ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPlmpPX4TxlO/w1aAbm0+kvcM486lW1zPK+IH2/JwjAj freya@venefilyn.se";
             signByDefault = builtins.stringLength "~/.ssh/id_ed25519" > 0;
         };
 
