@@ -2,7 +2,8 @@
    home.shellAliases = {
     "apply-sabre" = "nix run --impure home-manager/master -- -b bak switch --flake .#spytec@sabre";
 
-    "nixconfig" = "cd ~/.config/home-manager/";
+    nixconfig = "cd ~/.config/home-manager/";
+    nixconfigcode = "code ~/.config/home-manager/";
 
     # bat --plain for unformatted cat
     catp = "bat -p";
