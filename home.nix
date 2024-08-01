@@ -53,6 +53,7 @@
     corepack
     bitwarden-cli
     cosign
+    helix
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
