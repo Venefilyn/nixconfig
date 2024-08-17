@@ -56,6 +56,7 @@
     helix
     hyperfine
     fish
+    grc
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
