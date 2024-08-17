@@ -54,6 +54,7 @@
     bitwarden-cli
     cosign
     helix
+    hyperfine
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
