@@ -21,5 +21,7 @@
     enable = true;
     defaultEditor = true;
   };
-
+  programs.neovim.plugins = with pkgs.vimPlugins; [
+    fugitive
+  ];
 }
