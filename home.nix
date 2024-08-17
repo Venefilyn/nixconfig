@@ -55,6 +55,7 @@
     cosign
     helix
     hyperfine
+    fish
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
