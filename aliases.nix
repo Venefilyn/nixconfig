@@ -1,6 +1,7 @@
 { pkgs, misc, ... }: {
    home.shellAliases = {
     "apply-sabre" = "nix run --impure home-manager/master -- -b bak switch --flake .#spytec@sabre";
+    "apply-frieren" = "nix run --impure home-manager/master -- -b bak switch --flake .#spytec@frieren";
 
     nixconfig = "cd ~/.config/home-manager/";
     nixconfigcode = "code ~/.config/home-manager/";
