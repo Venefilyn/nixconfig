@@ -29,6 +29,8 @@
     enable = true;
     interactiveShellInit = ''
       set fish_greeting # Disable greeting
+      direnv hook fish | source
+      source "$HOME/.cargo/env.fish"
     '';
     plugins = [
       { name = "grc"; src = pkgs.fishPlugins.grc.src; }
