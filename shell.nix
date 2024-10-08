@@ -1,6 +1,4 @@
 { pkgs, misc, ... }: {
-  programs.eza.enableAliases = true;
-
   programs.eza.extraOptions = [
     "--group-directories-first"
     "--header"
