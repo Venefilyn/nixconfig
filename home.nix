@@ -57,6 +57,7 @@
     hyperfine
     fish
     grc
+    devcontainer
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true;
